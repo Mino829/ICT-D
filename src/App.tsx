@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { DUMMY_COURSES, type Course } from './types';
 import { BookOpen, CheckCircle, Search, Trash2 } from 'lucide-react';
+import { Analytics } from "@vercel/analytics"
 
 export default function App() {
   // 状態管理（State）
