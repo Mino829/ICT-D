@@ -71,7 +71,7 @@ export default function App() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* 左カラム：キャリア入力 & AI提案 */}
         <div className="bg-white p-6 rounded-xl shadow-sm border">
-          <h2 className="text-lg font-semibold mb-4 text-gray-700">① 将来の目標を入力</h2>
+          <h2 className="text-lg font-semibold mb-4 text-gray-700">① 将来の目標を入力してください</h2>
           <form onSubmit={handleAIRecommend} className="flex gap-2 mb-6">
             <input
               type="text"
